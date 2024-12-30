@@ -4,7 +4,7 @@ import { COMPETITION, COMPETITION_LIST } from '../utils/helper'
 function Competition() {
     return (
         <div className='grid-parent px-3'>
-            <div className='competition d-flex align-items-center'>
+            <div className='competition d-flex align-items-center table-padding'>
                 <div className='competition-text'>
                     <h1 className='text-custom-8xl text-white mb-5'>Competition</h1>
                     <div>
@@ -13,8 +13,8 @@ function Competition() {
                         ))}
                     </div>
                 </div>
-                <div className=''>
-                    <div className='competition-card'>
+                <div className='overflow-hidden'>
+                    <div className='overflow-x-auto competition-card'>
                         <div className='d-flex table-heading'>
                             <p className='bg-white table-text'>Rift</p>
                             <p className='bg-white table-text'>Taxscouts</p>

@@ -12,6 +12,7 @@ function Counting() {
     })
   return (
     <>
+    <h2>For loop</h2>
     <h2 className='text-center'><span>Counter</span> {count}</h2>
 </>
   )

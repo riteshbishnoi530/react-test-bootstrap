@@ -12,7 +12,8 @@ const Cards = () => {
     };
 
     return (
-        <div className='d-flex align-items-center flex-wrap gap-4 justify-content-center h-screen'>
+        <div className='d-flex align-items-center flex-wrap gap-4 justify-content-center'>
+            <h2>search params</h2>
             {CARD_LIST.map((obj, i) => (
                 <div key={i} className='card px-4'>
                     <h2
