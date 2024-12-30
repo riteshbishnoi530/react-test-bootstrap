@@ -16,10 +16,10 @@ function Competition() {
                 <div className=''>
                     <div className='competition-card'>
                         <div className='d-flex table-heading'>
-                        <p className='bg-white table-text'>Rift</p>
-                        <p className='bg-white table-text'>Taxscouts</p>
-                        <p className='bg-white table-text'>Coconut</p>
-                        <p className='bg-white table-text'>Pie</p>
+                            <p className='bg-white table-text'>Rift</p>
+                            <p className='bg-white table-text'>Taxscouts</p>
+                            <p className='bg-white table-text'>Coconut</p>
+                            <p className='bg-white table-text'>Pie</p>
                         </div>
                         {COMPETITION_LIST.map((obj, i) => (
 
@@ -28,10 +28,10 @@ function Competition() {
                                     <div className='d-flex gap-4 align-items-center border-b'>
                                         <h4 className='text-white d-flex text-custom-sm brand'>{obj.brand}</h4>
                                         <div className='d-flex gap-2'>
-                                        <p className='bg-white content d-flex icons text-custom-xs'>{obj.rift}</p>
-                                        <p className='bg-white content d-flex icons text-custom-xs'>{obj.taxscout}</p>
-                                        <p className='bg-white content text-custom-xs d-flex icons'>{obj.coconut}</p>
-                                        <p className='bg-white content text-custom-xs d-flex icons'>{obj.pie}</p>
+                                            <p className='bg-white content d-flex icons text-custom-xs'>{obj.rift}</p>
+                                            <p className='bg-white content d-flex icons text-custom-xs'>{obj.taxscout}</p>
+                                            <p className='bg-white content text-custom-xs d-flex icons'>{obj.coconut}</p>
+                                            <p className='bg-white content text-custom-xs d-flex icons'>{obj.pie}</p>
                                         </div>
                                     </div>
                                 </div>
