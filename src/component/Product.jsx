@@ -6,7 +6,7 @@ function Product() {
         <div className='grid-parent px-3 align-items-center d-flex'>
             <div className='d-flex gap-2 product'>
                 <div className='product-text'>
-                    <h1 className='text-custom-8xl text-white mb-5'>Product</h1>
+                    <h1 className='text-custom-8xl text-white heading'>Product</h1>
                     <div>
                         {PRODUCT.map((obj, index) => (
                             <p className='fs-6 text-white line-height-150' key={index}>{obj}</p>

@@ -8,13 +8,13 @@ function Counting() {
             } else {
                 setCount(100);
             }
-        }, 100)
+        }, 1000)
     })
   return (
-    <>
-    <h2 className='text-center mt-4 mb-2'>For loop</h2>
+    <div className='border py-4 mx-3'>
+    <h2 className='text-center'>For loop</h2>
     <h2 className='text-center'><span>Counter</span> {count}</h2>
-</>
+</div>
   )
 }
 

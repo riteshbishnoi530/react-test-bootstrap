@@ -3,6 +3,7 @@ import Product from '../component/Product'
 import CustomCounter from '../component/CustomCounter'
 import Cards from '../component/Cards'
 import Counting from '../component/Counting'
+import CountingOppositeDirection from '../component/CountingOppositeDirection'
 function Home() {
   return (
     <div>
@@ -10,6 +11,7 @@ function Home() {
     <Cards/>
     <CustomCounter/>
     <Counting/>
+    <CountingOppositeDirection/>
     </div>
   )
 }

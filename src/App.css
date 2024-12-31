@@ -192,6 +192,10 @@
 }
 
 @media (max-width: 1024px) {
+  .grid{
+    padding: 80px 26px;
+    margin-bottom: 40px !important;
+  }
   .table-padding{
     padding: 80px 0;
   }
@@ -253,6 +257,11 @@
 
 @media (max-width: 640px) {
 
+
+  .grid{
+    padding: 40px 26px;
+    margin-bottom: 20px !important;
+  }
   :root{
     --custom-text-8xl:24px ;
   }
@@ -269,19 +278,19 @@
     grid-row: 1;
   }
   .grid-2{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 2;
   }
   .grid-3{
-    grid-column: 1/2;
-    grid-row: 3;
+    grid-column: 2/3;
+    grid-row: 1;
   }
   .grid-4{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 4;
   }
   .grid-5{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 5;
   }
   .grid-6{
@@ -289,27 +298,27 @@
     grid-row: 6;
   }
   .grid-7{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 7;
   }
   .grid-8{
-    grid-column: 1/2;
-    grid-row: 8;
+    grid-column: 2/3;
+    grid-row: 6;
   }
   .grid-9{
     grid-column: 1/2;
-    grid-row: 9;
+    grid-row: 8;
   }
   .grid-10{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 10;
   }
   .grid-11{
-    grid-column: 1/2;
-    grid-row: 11;
+    grid-column: 2/3;
+    grid-row: 8;
   }
   .grid-12{
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 12;
   }
 }

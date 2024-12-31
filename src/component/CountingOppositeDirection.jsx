@@ -6,9 +6,9 @@ function CountingOppositeDirection() {
       numbers.push(i);
     }
   return (
-    <div>
-      <h1>Countdown</h1>
-      <ul>
+    <div className='py-4 border m-3'>
+      <h1 className='text-center'>Countdown</h1>
+      <ul className='text-center'>
         {(() => {
           const items = [];
           for (let i = 0; i < numbers.length; i++) {
