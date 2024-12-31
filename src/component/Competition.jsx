@@ -6,15 +6,16 @@ function Competition() {
         <div className='grid-parent px-3'>
             <div className='competition d-flex align-items-center table-padding'>
                 <div className='competition-text'>
-                    <h1 className='text-custom-8xl text-white mb-5'>Competition</h1>
+                    <h1 className='text-custom-8xl heading text-white'>Competition</h1>
                     <div>
                         {COMPETITION.map((obj, index) => (
                             <p className='fs-6 text-white line-height-150' key={index}>{obj}</p>
                         ))}
                     </div>
                 </div>
-                <div className='overflow-hidden'>
-                    <div className='overflow-x-auto competition-card'>
+                <div className='w-100 overflow-x-auto overflow-hidden'>
+                <div className='competition-card'>
+                    <div className=''>
                         <div className='d-flex table-heading'>
                             <p className='bg-white table-text'>Rift</p>
                             <p className='bg-white table-text'>Taxscouts</p>
@@ -39,6 +40,7 @@ function Competition() {
 
                         ))}
                     </div>
+                </div>
                 </div>
             </div>
         </div>

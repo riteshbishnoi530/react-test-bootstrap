@@ -10,7 +10,7 @@ function CustomCounter() {
     }
   return (
     <div>
-        <h3 className='text-center text-custom-8xl'>Counter</h3>
+        <h3 className='text-center text-custom-8xl mt-4 mb-2'>Counter</h3>
         <div className='d-flex counter'>
                         <button className='text-custom-8xl border-0 bg-transparent' onClick={removeValue}>-</button>
                         <p className='text-custom-8xl mb-0 d-flex align-items-center'>{value}</p>

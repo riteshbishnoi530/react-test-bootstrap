@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.heading{
+  margin-bottom: 50px;
+}
+
 .line-height-150{
   line-height: 150%;
 }
@@ -67,10 +71,11 @@
 
 .competition-card{
   background-color: #026070;
-  max-width: 600px;
+  width: 600px;
   padding: 51px 26px;
   border-radius: 12px;
 }
+
 
 .border-b{
   border-bottom: 1px solid black;
@@ -187,6 +192,12 @@
 }
 
 @media (max-width: 1024px) {
+  .table-padding{
+    padding: 80px 0;
+  }
+  .heading{
+    margin-bottom: 40px !important;
+  }
   .competition{
     flex-direction: column !important;
   }
@@ -243,8 +254,16 @@
 @media (max-width: 640px) {
 
   :root{
-    --custom-text-8xl:30px ;
+    --custom-text-8xl:24px ;
   }
+  .heading{
+    margin-bottom: 30px !important;
+  }
+
+  .table-padding{
+    padding: 40px 0;
+  }
+
   .grid-1{
     grid-column: 1/2;
     grid-row: 1;
