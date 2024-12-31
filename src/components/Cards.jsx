@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CARD_LIST } from '../utils/helper';
+import { CARDS_LIST } from '../utils/helper';
 import { useSearchParams } from 'react-router';
 
 
@@ -13,9 +13,9 @@ const Cards = () => {
 
     return (
         <div>
-            <h2 className='text-center mt-4 mb-2'>Search Params</h2>
+            <h2 className='text-center mt-4 mb-2 text-custom-8xl'>Search Params</h2>
         <div className='d-flex align-items-center flex-wrap gap-4 justify-content-center'>
-            {CARD_LIST.map((obj, i) => (
+            {CARDS_LIST.map((obj, i) => (
                 <div key={i}  onClick={() => handleClick(obj.heading)} className='card p-4'>
                     <h2
                         className='text-center py-4'>

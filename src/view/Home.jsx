@@ -1,9 +1,9 @@
 import React from 'react'
-import Product from '../component/Product'
-import CustomCounter from '../component/CustomCounter'
-import Cards from '../component/Cards'
-import Counting from '../component/Counting'
-import CountingOppositeDirection from '../component/CountingOppositeDirection'
+import Product from '../components/Product'
+import CustomCounter from '../components/CustomCounter'
+import Cards from '../components/Cards'
+import Counting from '../components/Counting'
+import CountingOppositeDirection from '../components/CountingOppositeDirection'
 function Home() {
   return (
     <div>

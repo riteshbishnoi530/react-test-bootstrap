@@ -12,8 +12,8 @@ function Counting() {
     })
   return (
     <div className='border py-4 mx-3'>
-    <h2 className='text-center'>For loop</h2>
-    <h2 className='text-center'><span>Counter</span> {count}</h2>
+    <h2 className='text-center text-custom-8xl mb-3'>UseEffect</h2>
+    <h4 className='text-center'><span>Counter</span> {count}</h4>
 </div>
   )
 }

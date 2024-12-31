@@ -1,11 +1,8 @@
 import React from 'react'
-import Competition from '../component/Competition'
+import Competition from '../components/Competition'
 function About() {
   return (
-    <>
     <Competition/>
-  
-    </>
   )
 }
 

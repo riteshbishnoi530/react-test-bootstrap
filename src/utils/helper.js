@@ -14,7 +14,7 @@ export const COMPETITION = [
     "As well as being the cheapest in market, our product offers everything a sole trader needs in one place, whilst pricing innovation of zero commission rather than a commission, will drive customers that are particularly price sensitive."
 ];
 
-export const CARD_LIST = [
+export const CARDS_LIST = [
     {
         heading: "Card 1",
         description: "Given our best in class offering, we need to cut through by opting for penetration pricing."
